@@ -1,0 +1,24 @@
+{
+  "name": "subgit",
+  "version": "0.1.0",
+  "description": "Deploy sub-folder to git",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "EGOIST",
+  "license": "MIT",
+  "engine": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "path-exists": "^2.1.0",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {
+    "ava": "^0.5.0"
+  }
+}
